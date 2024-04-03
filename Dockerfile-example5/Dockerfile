@@ -1,0 +1,11 @@
+FROM nginx:stable-alpine
+FROM postgres
+FROM busybox
+FROM redis
+FROM ubuntu
+FROM python
+FROM mysql
+FROM golang
+FROM elasticsearch
+FROM neo4j
+FROM jenkins
