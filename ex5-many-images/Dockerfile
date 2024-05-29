@@ -1,0 +1,16 @@
+FROM nginx:stable-alpine
+FROM neo4j:ubi9
+FROM postgres:alpine3.20
+FROM python:3.9.19-alpine3.20
+FROM busybox:uclibc
+FROM memcached:1.6.27-bookworm
+FROM redis:bookworm
+FROM httpd:bookworm
+FROM mariadb:lts-jammy
+FROM rabbitmq:3.12.14-alpine
+FROM mongo:8.0.0-rc4-jammy
+FROM traefik:v3.0.1
+FROM golang:1-alpine
+FROM registry:2.8.3
+FROM amazonlinux:2023.3.20240312.0
+FROM ruby:3.3.1-alpine
