@@ -1,25 +1,16 @@
-# Sca Goat
-This repository contains deliberately insecure manifest files with vulnerable 3rd party packages. It is designed for security testing
-only.
+# Containers Goat
+This repository contains intentionally insecure manifest files with vulnerable third-party packages, designed exclusively for security testing purposes.
 
 ### WARNING :
-* ***It is not designed to be used in any unauthorized activity!***
-* ***Utilization of any content of this repository for any sort of hacking is strongly prohibited!***
-* ***Any usage of the package provided in this repository or usage of the whole manifest may make your system insecure. 
-Please make sure you do not make any harm.***
+* ***This repository is not intended for any unauthorized activities!***
+* ***Utilizing any content from this repository for hacking or any other malicious activities is strictly prohibited!***
+* ***Using the packages or manifests from this repository may compromise your system’s security. Please ensure you do not cause any harm.***
 
-# Contents
+# How to use?
+Choose a branch and scan it.
 
-* [Nuget testing manifest | C#](/src/goat-nuget.csproj)
-* [Npm testing manifest | Javascript](/src/package.json)
-* [Maven testing manifest | Java](/src/pom.xml)
-* https://github.com/WebGoat/WebGoat/releases/tag/v2023.8
-
-# Scan Report
-
-### Direct packages (30)
-Vulnerabilites | Quantity
----------------|---------------
-**High**| 46
-***Medium***| 37
-*Low*| 0
+# Contents (per branch)
+* ***all-round***: A showcase for Container Security. Use this branch to get results from various scanners like SCA, SAST, IoC, and more. It includes WebGoat as well.
+* ***malicious-packages***: Contains malicious packages. Use this branch to understand how malicious packages appear in Container Security engine results.
+* ***complex-test***: Provides extensive results and includes various types of files to be scanned (Helm chart, YAML, YML, Dockerfile).
+* ***simple-test***: Basic sanity test for Container Security.
