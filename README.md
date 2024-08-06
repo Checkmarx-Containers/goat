@@ -11,6 +11,7 @@ Choose a branch and scan it.
 
 # Contents (per branch)
 * ***all-round***: A showcase for Container Security. Use this branch to get results from various scanners like SCA, SAST, IoC, and more. It includes WebGoat as well.
+* ***e2e-prod***: based on all-round branch. Contains all the packages and manifests from all-round branch (up to Aug 6th, 2024)
 * ***malicious-packages***: Contains malicious packages. Use this branch to understand how malicious packages appear in Container Security engine results.
 * ***complex-test***: Provides extensive results and includes various types of files to be scanned (Helm chart, YAML, YML, Dockerfile).
 * ***simple-test***: Basic sanity test for Container Security.
