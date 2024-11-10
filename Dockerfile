@@ -1,5 +1,6 @@
-# Dockerfile to pull all listed images
-# Each line pulls a new image as a separate stage
+# Disclamer: use with caution. All the images below contain at least one malicious package!
+
+# Dockerfile to pull all listed images, each line pulls a new image as a separate stage
 
 # Stage to pull each image (using AS to tag each stage uniquely)
 FROM vulhub/phpmyadmin:4.8.1 AS phpmyadmin
