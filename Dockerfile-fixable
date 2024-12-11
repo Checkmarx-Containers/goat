@@ -1,2 +1,2 @@
-FROM library/node:14.9.0-stretch
-FROM library/python:3.8-buster
+FROM node:14.9.0-stretch
+FROM python:3.8-buster
