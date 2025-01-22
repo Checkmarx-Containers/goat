@@ -1,0 +1,2 @@
+FROM checkmarx.jfrog.io/docker/containers-results-processor:0.7.0
+FROM ghcr.io/checkmarx-containers/alpine-test:3.15
