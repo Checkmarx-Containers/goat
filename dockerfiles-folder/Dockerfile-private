@@ -2,3 +2,4 @@ FROM checkmarx.jfrog.io/docker/containers-results-processor:0.7.0
 FROM ghcr.io/checkmarx-containers/alpine-test:3.15
 FROM docker.io/cxscaci/cx-containers-demo:httpd-2.4.39
 FROM quay.io/shaked_karta/cx_python:latest
+FROM cxoneclouenginestest170625-aagfgjf2efgbbxck.azurecr.io/spinel-mysql:8.0
