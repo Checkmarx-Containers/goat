@@ -5,3 +5,4 @@ FROM 058264083262.dkr.ecr.us-east-1.amazonaws.com/davidk/dummy:3.15
 FROM quay.io/david_kesoshvili/t2:3.15
 FROM cxoneclouenginestest170625-aagfgjf2efgbbxck.azurecr.io/spinel-mysql:8.0
 FROM cxoneclouenginestest170625-aagfgjf2efgbbxck.azurecr.io/spinel-mysql8:arm64
+FROM cxoneclouenginestest170625-aagfgjf2efgbbxck.azurecr.io/spinel-mysql8:multiarch
