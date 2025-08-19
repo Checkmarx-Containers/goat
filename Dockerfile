@@ -3,8 +3,4 @@ FROM davidkesoshvili/wolfi:new
 FROM checkmarx.jfrog.io/ast-docker/logs:00584fb
 FROM 058264083262.dkr.ecr.us-east-1.amazonaws.com/davidk/dummy:3.15
 FROM quay.io/david_kesoshvili/t2:3.15
-FROM quay.io/shaked_karta/cx_python:latest
-FROM quay.io/shaked_karta/spinel-python-bookworm:multiarch
-FROM cxoneclouenginestest170625-aagfgjf2efgbbxck.azurecr.io/spinel-mysql:8.0
-FROM cxoneclouenginestest170625-aagfgjf2efgbbxck.azurecr.io/spinel-mysql8:arm64
 FROM cxoneclouenginestest170625-aagfgjf2efgbbxck.azurecr.io/spinel-mysql8:multiarch
