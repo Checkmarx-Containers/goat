@@ -3,3 +3,4 @@ FROM tomcat:10.1.24-jre21-temurin-jammy
 FROM mysql:5.7
 FROM haproxy:3.0-dev13-bookworm
 FROM amazonlinux:2023.3.20240312.0
+FROM rockylinux:8.8
