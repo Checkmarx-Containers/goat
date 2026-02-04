@@ -5,3 +5,5 @@ FROM haproxy:3.0-dev13-bookworm
 FROM amazonlinux:2023.3.20240312.0
 FROM rockylinux:8.8
 FROM manjarolinux/base:20250330
+FROM photon:3.0-20230227
+FROM opensuse/tumbleweed:latest
