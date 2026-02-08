@@ -11,6 +11,5 @@ FROM rabbitmq:3.12.14-alpine
 FROM mongo:8.0.0-rc4-jammy
 FROM traefik:v3.0.1
 FROM golang:1-alpine
-FROM registry:2.8.3
 FROM amazonlinux:2023.3.20240312.0
 FROM ruby:3.3.1-alpine
