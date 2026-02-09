@@ -13,3 +13,4 @@ FROM traefik:v3.0.1
 FROM golang:1-alpine
 FROM amazonlinux:2023.3.20240312.0
 FROM ruby:3.3.1-alpine
+FROM registry:2.8.3
